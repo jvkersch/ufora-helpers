@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Python package for processing class scores into CSV format suitable for upload to Ufora (university educational platform). The package converts custom score formats to Ufora's required format and can be installed via pipx.
+This is a Python package with utilities for working with Ufora (university educational platform). Currently includes tools for processing class scores into CSV format suitable for Ufora upload. The package can be installed via pipx and is designed to be extensible for additional Ufora-related utilities.
 
 ## Installation and Usage
 
@@ -55,4 +55,4 @@ The CLI tool converts CSV files with student scores to Ufora-compatible format:
 - Uses hatchling as build backend
 - Supports Python 3.8+
 - Score formatting follows Ufora's specific requirements: "ColumnName Points Grade <Numeric MaxPoints:N>"
-- Ready for expansion with additional score processing utilities
+- Ready for expansion with additional Ufora utilities and helpers

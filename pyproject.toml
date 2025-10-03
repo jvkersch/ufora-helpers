@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ufora-scores"
+name = "ufora-helpers"
 version = "0.1.0"
-description = "Convert custom score format to format suitable for Ufora upload"
+description = "Utilities for working with Ufora educational platform"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
@@ -38,8 +38,8 @@ dev = [
 convert-scores = "ufora_scores.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/ufora-scores"
-Repository = "https://github.com/yourusername/ufora-scores"
+Homepage = "https://github.com/yourusername/ufora-helpers"
+Repository = "https://github.com/yourusername/ufora-helpers"
 
 [tool.black]
 line-length = 88
