@@ -35,7 +35,7 @@ dev = [
 ]
 
 [project.scripts]
-process-ufora = "ufora_scores.cli:main"
+convert-scores = "ufora_scores.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/yourusername/ufora-scores"

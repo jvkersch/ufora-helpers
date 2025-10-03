@@ -15,7 +15,7 @@ pipx install .
 
 Use the console script:
 ```bash
-process-ufora input.csv score_column_name --id ID_column --max 10
+convert-scores input.csv score_column_name --id ID_column --max 10
 ```
 
 ## Commands
