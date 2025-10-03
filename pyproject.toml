@@ -41,6 +41,9 @@ convert-scores = "ufora_scores.cli:main"
 Homepage = "https://github.com/yourusername/ufora-helpers"
 Repository = "https://github.com/yourusername/ufora-helpers"
 
+[tool.hatch.build.targets.wheel]
+packages = ["ufora_scores"]
+
 [tool.black]
 line-length = 88
 target-version = ['py38']
